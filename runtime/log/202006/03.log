@@ -1,0 +1,1241 @@
+---------------------------------------------------------------
+[ 2020-06-03T09:48:13+08:00 ] 127.0.0.1 GET www.cms.zc/public/
+[运行时间：0.285526s] [吞吐率：3.50req/s] [内存消耗：1,299.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:48:48+08:00 ] 127.0.0.1 GET www.cms.zc/public/index.php/admin/login
+[运行时间：0.173382s] [吞吐率：5.77req/s] [内存消耗：1,839.06kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:49:41+08:00 ] 127.0.0.1 GET www.cms.zc/index.php/admin/login
+[运行时间：0.013996s] [吞吐率：71.45req/s] [内存消耗：1,626.23kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:50:30+08:00 ] 127.0.0.1 GET www.cms.zc/index.php/admin/login
+[运行时间：0.012042s] [吞吐率：83.04req/s] [内存消耗：1,627.74kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:53:24+08:00 ] 127.0.0.1 GET www.cms.zc/admin/login
+[运行时间：0.013922s] [吞吐率：71.83req/s] [内存消耗：1,634.87kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:53:24+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.051113s] [吞吐率：19.56req/s] [内存消耗：1,763.78kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:53:49+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.014766s] [吞吐率：67.72req/s] [内存消耗：1,572.61kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '418',
+  'content-type' => 'multipart/form-data; boundary=---------------------------349714796730606418163883040768',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'verify' => 'wgye',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:53:51+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify?0.14502767618353563
+[运行时间：0.019993s] [吞吐率：50.02req/s] [内存消耗：1,764.12kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_14502767618353563' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:54:06+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.010425s] [吞吐率：95.92req/s] [内存消耗：1,572.61kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '418',
+  'content-type' => 'multipart/form-data; boundary=---------------------------187869087827013734263308660544',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'verify' => 'wgye',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:54:07+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify?0.7539404182847759
+[运行时间：0.014119s] [吞吐率：70.83req/s] [内存消耗：1,764.12kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_7539404182847759' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:55:30+08:00 ] 127.0.0.1 GET www.cms.zc/admin/login
+[运行时间：0.012917s] [吞吐率：77.42req/s] [内存消耗：1,636.38kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:55:30+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.013392s] [吞吐率：74.67req/s] [内存消耗：1,765.29kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:55:55+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.010370s] [吞吐率：96.43req/s] [内存消耗：1,572.61kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '414',
+  'content-type' => 'multipart/form-data; boundary=---------------------------41506954448250427722847709304',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123123',
+  'verify' => 'wgye',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T09:55:56+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify?0.793931727214925
+[运行时间：0.012361s] [吞吐率：80.90req/s] [内存消耗：1,764.12kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '0_793931727214925' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:28+08:00 ] 127.0.0.1 GET www.cms.zc/admin/login
+[运行时间：0.012393s] [吞吐率：80.69req/s] [内存消耗：1,636.27kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:28+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.014419s] [吞吐率：69.35req/s] [内存消耗：1,764.17kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:35+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.044314s] [吞吐率：22.57req/s] [内存消耗：2,828.87kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '419',
+  'content-type' => 'multipart/form-data; boundary=---------------------------315319698721556728773878424948',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123123',
+  'password' => '123123',
+  'verify' => 'b7b5',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.024781s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_admin` WHERE  (  user='123123' AND password='63ee451939ed580ef3c4b6f0109d1fd0' ) LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2020-06-03T10:00:35+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.042265s] [吞吐率：23.66req/s] [内存消耗：2,328.25kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:41+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/tables-simple.html
+[运行时间：0.015648s] [吞吐率：63.91req/s] [内存消耗：2,018.48kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'tables-simple',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:46+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.013028s] [吞吐率：76.76req/s] [内存消耗：2,086.73kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.cms.zc/admin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:49+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Admin/editPass
+[运行时间：0.035904s] [吞吐率：27.85req/s] [内存消耗：2,183.50kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'editPass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->editPass[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\admin\edit_pass.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:55+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Admin/ajaxEditPassword
+[运行时间：0.057521s] [吞吐率：17.38req/s] [内存消耗：2,821.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'ajaxEditPassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Admin/editPass',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '183',
+  'content-type' => 'multipart/form-data; boundary=---------------------------369342765127769073322784015629',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'password' => '122333',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->ajaxEditPassword[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010498s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.024684s ]
+[ sql ] [ SQL ] UPDATE `yx_admin`  SET `password`='a03d4a5a0a50de5baf8cb532e99acac6'  WHERE  `id` = 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2020-06-03T10:00:56+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.013071s] [吞吐率：76.50req/s] [内存消耗：2,086.75kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Admin/editPass',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:59+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/logout
+[运行时间：0.012913s] [吞吐率：77.44req/s] [内存消耗：1,985.05kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->logout[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:59+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/index
+[运行时间：0.011103s] [吞吐率：90.07req/s] [内存消耗：1,635.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:00:59+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.012605s] [吞吐率：79.33req/s] [内存消耗：1,763.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:01:06+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.058521s] [吞吐率：17.09req/s] [内存消耗：2,828.89kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '411',
+  'content-type' => 'multipart/form-data; boundary=---------------------------1601828237820205473382357570',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123123',
+  'password' => '122333',
+  'verify' => 'm5d5',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010315s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.030067s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_admin` WHERE  (  user='123123' AND password='a03d4a5a0a50de5baf8cb532e99acac6' ) LIMIT 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2020-06-03T10:01:06+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.012987s] [吞吐率：77.00req/s] [内存消耗：2,086.75kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:01:11+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Admin/editPass
+[运行时间：0.013830s] [吞吐率：72.31req/s] [内存消耗：2,021.98kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'editPass',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->editPass[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\admin\edit_pass.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+  2 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T10:01:18+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Admin/ajaxEditPassword
+[运行时间：0.057065s] [吞吐率：17.52req/s] [内存消耗：2,821.72kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'ajaxEditPassword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Admin/editPass',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '181',
+  'content-type' => 'multipart/form-data; boundary=---------------------------49900252417571218021589075689',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123123',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->ajaxEditPassword[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011393s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.025902s ]
+[ sql ] [ SQL ] UPDATE `yx_admin`  SET `password`='63ee451939ed580ef3c4b6f0109d1fd0'  WHERE  `id` = 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2020-06-03T10:01:18+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.013220s] [吞吐率：75.64req/s] [内存消耗：2,086.75kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'referer' => 'http://www.cms.zc/Admin/Admin/editPass',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-03T14:06:01+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.018030s] [吞吐率：55.46req/s] [内存消耗：2,086.75kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; pgv_si=s9811447808; PHPSESSID=niv9n9lhibc2dfsi7jqp51qah8',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.cms.zc/Admin/Admin/editPass',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File

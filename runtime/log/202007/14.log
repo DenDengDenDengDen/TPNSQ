@@ -1,0 +1,322 @@
+---------------------------------------------------------------
+[ 2020-07-14T18:12:37+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011566s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.026041s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.023346s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.023699s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.022540s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.019445s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.021928s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.022424s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.021244s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:12:37+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.014066s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.014368s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011054s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011551s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.014112s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.009155s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.010178s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.011920s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000142s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:12:39+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012280s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.036607s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.013232s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012530s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011594s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008313s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:12:39+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.009222s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.008582s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.010343s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.009081s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009834s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:12:42+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011762s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.014810s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011935s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013999s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013502s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008564s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:12:43+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011642s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015438s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.009761s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.009394s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.009683s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.016077s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:05+08:00 ] 127.0.0.1 GET www.cms.zc/Index/About/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010028s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016104s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011718s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011143s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011910s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008920s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:09+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000798s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016302s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012056s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011287s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013603s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.010072s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:10+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015738s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012466s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012581s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011967s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008874s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000184s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:14+08:00 ] 127.0.0.1 GET www.cms.zc/Index/About/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.014211s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011654s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011967s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011810s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008331s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000188s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:17+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001093s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016656s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011942s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013637s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013009s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008940s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:17+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.008697s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.008615s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.008982s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.009897s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.010728s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:19+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011951s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.022399s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.013247s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013329s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013307s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008840s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2020-07-14T18:13:19+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010973s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.009141s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.009428s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.009944s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.010875s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009167s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000175s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:09+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.019103s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.014662s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.014593s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014823s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.011053s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.012958s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.013057s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.013248s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000117s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:09+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007136s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.014221s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018082s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.015079s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011102s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.011341s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.008932s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.010020s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.009268s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:15+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015974s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012484s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011903s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011486s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009023s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000120s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:15+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011302s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.017093s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.010980s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.009901s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.009804s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008319s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:20+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011238s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015841s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011576s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012912s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013214s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008506s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:02:20+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010699s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.009772s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.009761s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.009535s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.012157s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.011281s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:05:42+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010776s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015474s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012888s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012320s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.015932s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.013243s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2020-07-14T19:05:42+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Form/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.013241s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.014426s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011141s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011543s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.011106s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000198s ]

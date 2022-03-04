@@ -1,0 +1,739 @@
+---------------------------------------------------------------
+[ 2020-09-08T17:41:41+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)
+---------------------------------------------------------------
+[ 2020-09-08T17:41:47+08:00 ] 127.0.0.1 GET www.cms.zc/index.php/index/index/test
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)
+---------------------------------------------------------------
+[ 2020-09-08T17:41:51+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)
+---------------------------------------------------------------
+[ 2020-09-08T17:41:54+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)
+---------------------------------------------------------------
+[ 2020-09-08T17:42:01+08:00 ] 127.0.0.1 GET www.cms.zc/
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)
+---------------------------------------------------------------
+[ 2020-09-08T17:42:43+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.013274s] [吞吐率：75.34req/s] [内存消耗：1,734.52kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'use' (T_USE)[D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php:32]
+---------------------------------------------------------------
+[ 2020-09-08T17:43:09+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.405493s] [吞吐率：2.47req/s] [内存消耗：2,892.77kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'friendList',
+  2 => 'info',
+  3 => 'linkList',
+  4 => 'productList',
+  5 => 'cateList',
+  6 => 'bannerimgList',
+  7 => 'bannerBtn',
+  8 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.030604s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.025225s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.023295s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.021732s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.019260s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.020917s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.021637s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.022694s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:43:10+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.014182s] [吞吐率：70.51req/s] [内存消耗：1,740.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-08T17:43:10+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.231773s] [吞吐率：4.31req/s] [内存消耗：2,892.13kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'controllerName',
+  1 => 'friendList',
+  2 => 'info',
+  3 => 'linkList',
+  4 => 'productList',
+  5 => 'cateList',
+  6 => 'bannerimgList',
+  7 => 'bannerBtn',
+  8 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.020696s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.013255s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.017850s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.025462s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.019198s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.023956s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.023190s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_bannerimg` [ RunTime:0.062345s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_bannerimg` ORDER BY `sort` ASC [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:43:10+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1599558190262
+[运行时间：0.014554s] [吞吐率：68.71req/s] [内存消耗：1,741.00kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1599558190262',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-08T17:43:10+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1599558190261
+[运行时间：0.014862s] [吞吐率：67.29req/s] [内存消耗：1,741.00kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1599558190261',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-09-08T17:43:17+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.913657s] [吞吐率：1.09req/s] [内存消耗：4,539.27kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015120s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012146s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012875s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013410s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008119s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000135s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:43:48+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.213281s] [吞吐率：4.69req/s] [内存消耗：4,539.43kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010838s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016028s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011862s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012896s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011989s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.010441s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000125s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:43:51+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.194684s] [吞吐率：5.14req/s] [内存消耗：4,539.43kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015691s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011713s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011979s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.012238s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009995s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000143s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:45:31+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.088194s] [吞吐率：11.34req/s] [内存消耗：3,501.16kb] [文件加载：95]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015463s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.010842s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011127s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.011483s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008299s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000175s ]
+[ error ] [0]Call to undefined method AlibabaCloud\Client\Request\RpcRequest::PhoneNumbers()[D:\phpstudy_pro\WWW\cms\vendor\alibabacloud\client\src\Request\RpcRequest.php:201]
+---------------------------------------------------------------
+[ 2020-09-08T17:50:10+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.093758s] [吞吐率：10.67req/s] [内存消耗：3,503.18kb] [文件加载：95]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000571s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016446s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.010490s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012343s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014257s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.008682s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000146s ]
+[ error ] [0]Call to undefined method AlibabaCloud\Client\Request\RpcRequest::phoneNumbers()[D:\phpstudy_pro\WWW\cms\vendor\alibabacloud\client\src\Request\RpcRequest.php:201]
+---------------------------------------------------------------
+[ 2020-09-08T17:51:05+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.213597s] [吞吐率：4.68req/s] [内存消耗：4,539.34kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.011997s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012014s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.012411s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.012479s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009594s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000127s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:54:49+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.201591s] [吞吐率：4.96req/s] [内存消耗：4,539.42kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015272s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011301s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013136s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013027s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009763s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000120s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:55:14+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.197186s] [吞吐率：5.07req/s] [内存消耗：4,539.56kb] [文件加载：134]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015255s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.010435s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013014s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013872s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.013103s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000128s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:56:00+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.225204s] [吞吐率：4.44req/s] [内存消耗：4,251.87kb] [文件加载：130]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.016539s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011772s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013550s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.012710s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009188s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000113s ]
+---------------------------------------------------------------
+[ 2020-09-08T17:56:56+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.391971s] [吞吐率：2.55req/s] [内存消耗：4,252.02kb] [文件加载：130]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.017737s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.012221s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.014156s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014353s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.010051s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000144s ]
+---------------------------------------------------------------
+[ 2020-09-08T18:46:29+08:00 ] 127.0.0.1 GET www.cms.zc/index/index/test
+[运行时间：0.397057s] [吞吐率：2.52req/s] [内存消耗：4,252.02kb] [文件加载：130]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->test[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015076s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.011565s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.011877s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.013026s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_friend` [ RunTime:0.009067s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_friend` ORDER BY `sort` ASC [ RunTime:0.000121s ]

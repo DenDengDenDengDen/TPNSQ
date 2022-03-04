@@ -1,0 +1,2269 @@
+---------------------------------------------------------------
+[ 2020-06-13T11:38:08+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.935664s] [吞吐率：1.07req/s] [内存消耗：2,820.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001004s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.021674s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.016982s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.016866s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.018067s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.016330s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.016478s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000156s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:38:08+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.127154s] [吞吐率：7.86req/s] [内存消耗：1,350.76kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:08+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.156862s] [吞吐率：6.38req/s] [内存消耗：2,617.44kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.013534s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.017606s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.026788s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.023921s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.015189s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.036686s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000074s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:38:08+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019488532
+[运行时间：0.011409s] [吞吐率：87.65req/s] [内存消耗：1,351.80kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019488532',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:08+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019488533
+[运行时间：0.011721s] [吞吐率：85.32req/s] [内存消耗：1,351.80kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019488533',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:10+08:00 ] 127.0.0.1 GET www.cms.zc/admin/
+[运行时间：0.067944s] [吞吐率：14.72req/s] [内存消耗：1,655.57kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:10+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/index
+[运行时间：0.040330s] [吞吐率：24.80req/s] [内存消耗：1,635.09kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:10+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.051259s] [吞吐率：19.51req/s] [内存消耗：1,763.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:38:15+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.091438s] [吞吐率：10.94req/s] [内存消耗：2,829.26kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '419',
+  'content-type' => 'multipart/form-data; boundary=---------------------------202721243232511829163980389014',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123123',
+  'password' => '123123',
+  'verify' => 'mp7p',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011112s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.022701s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_admin` WHERE  (  user='123123' AND password='63ee451939ed580ef3c4b6f0109d1fd0' ) LIMIT 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:38:15+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.028223s] [吞吐率：35.43req/s] [内存消耗：2,003.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:39:08+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.051139s] [吞吐率：19.55req/s] [内存消耗：2,150.29kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:39:10+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Message/index
+[运行时间：0.129832s] [吞吐率：7.70req/s] [内存消耗：3,065.04kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Message',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd',
+  'referer' => 'http://www.cms.zc/Admin/Index/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Message->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Message.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\message\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009881s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_message` [ RunTime:0.023544s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yx_message` LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_message` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:23+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.144297s] [吞吐率：6.93req/s] [内存消耗：2,618.31kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009744s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.023324s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018070s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.018823s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.018443s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.017535s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.017335s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.015067s] [吞吐率：66.37req/s] [内存消耗：1,351.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:23+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.117114s] [吞吐率：8.54req/s] [内存消耗：2,617.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.013683s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.022726s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.013665s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014818s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.018300s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.012315s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000089s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:23+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019623719
+[运行时间：0.011652s] [吞吐率：85.82req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019623719',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:23+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019623720
+[运行时间：0.011163s] [吞吐率：89.58req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019623720',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:25+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.148944s] [吞吐率：6.71req/s] [内存消耗：2,618.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009690s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.026282s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.019164s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.019105s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.019316s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.018479s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.016930s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000168s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:25+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.010080s] [吞吐率：99.21req/s] [内存消耗：1,351.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:25+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.130595s] [吞吐率：7.66req/s] [内存消耗：2,617.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010566s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.015619s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.015316s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.021156s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.020307s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.014134s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.013203s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:25+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019625658
+[运行时间：0.010183s] [吞吐率：98.20req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019625658',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:25+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019625659
+[运行时间：0.010248s] [吞吐率：97.58req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019625659',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.148366s] [吞吐率：6.74req/s] [内存消耗：2,618.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009822s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.026298s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018897s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.018849s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.018795s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.018372s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.017212s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000170s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.010539s] [吞吐率：94.89req/s] [内存消耗：1,351.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.188798s] [吞吐率：5.30req/s] [内存消耗：2,617.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011050s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.029892s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.025916s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.026329s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.028864s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.022372s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.021207s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019629058
+[运行时间：0.018844s] [吞吐率：53.07req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019629058',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.157686s] [吞吐率：6.34req/s] [内存消耗：2,618.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009686s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.026126s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.020892s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.024286s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014083s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.016998s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.021439s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.010239s] [吞吐率：97.67req/s] [内存消耗：1,351.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.129343s] [吞吐率：7.73req/s] [内存消耗：2,617.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.019337s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.015793s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.020045s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.021545s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.017735s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.013042s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000140s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:40:29+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019629803
+[运行时间：0.011260s] [吞吐率：88.81req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019629803',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:40:30+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019629804
+[运行时间：0.011983s] [吞吐率：83.45req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019629804',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:12+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Product/details/id/2
+[运行时间：0.180797s] [吞吐率：5.53req/s] [内存消耗：2,728.51kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'Product',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Product->details[ D:\phpstudy_pro\WWW\cms\application\index\controller\Product.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\product\details.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010158s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.023746s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.019292s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.024009s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.018690s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` WHERE  `id` = 2 ORDER BY `sort` ASC LIMIT 1 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:12+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/css/style_10.css
+[运行时间：0.010817s] [吞吐率：92.45req/s] [内存消耗：1,351.28kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Product/details/id/2',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:12+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019672155
+[运行时间：0.013431s] [吞吐率：74.45req/s] [内存消耗：1,352.38kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Product/details/id/2',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019672155',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:12+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019672156
+[运行时间：0.012920s] [吞吐率：77.40req/s] [内存消耗：1,352.38kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Product/details/id/2',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019672156',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:16+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Article/index/id/3
+[运行时间：0.229385s] [吞吐率：4.36req/s] [内存消耗：2,739.86kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Product/details/id/2',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\article\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010890s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.023677s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018768s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.019204s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.029300s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.023775s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:16+08:00 ] 127.0.0.1 GET www.cms.zc/Index/Article/index/id/3
+[运行时间：0.110388s] [吞吐率：9.06req/s] [内存消耗：2,580.43kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'Article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Article/index/id/3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Article->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Article.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\article\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.019340s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.019137s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.014452s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.014586s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.020582s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:16+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019676373
+[运行时间：0.019042s] [吞吐率：52.52req/s] [内存消耗：1,352.38kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Article/index/id/3',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019676373',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:16+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019676374
+[运行时间：0.014689s] [吞吐率：68.08req/s] [内存消耗：1,352.38kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Article/index/id/3',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019676374',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/Index/About/index
+[运行时间：0.138656s] [吞吐率：7.21req/s] [内存消耗：2,577.32kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'About',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/Article/index/id/3',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\About->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\About.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\about\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010496s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.025265s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.020024s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.018549s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.019093s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/about.png
+[运行时间：0.011089s] [吞吐率：90.18req/s] [内存消耗：1,351.21kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/1-1f9291239550-l.jpg
+[运行时间：0.011384s] [吞吐率：87.84req/s] [内存消耗：1,351.30kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/1-1f9291239100-l.jpg
+[运行时间：0.012694s] [吞吐率：78.78req/s] [内存消耗：1,351.30kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/p-phone.png
+[运行时间：0.011266s] [吞吐率：88.76req/s] [内存消耗：1,351.26kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/static/skin/css/about.css',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/govbeian.png
+[运行时间：0.010370s] [吞吐率：96.43req/s] [内存消耗：1,351.23kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/team-bg-0.jpg
+[运行时间：0.011404s] [吞吐率：87.69req/s] [内存消耗：1,351.28kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/static/skin/css/about.css',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/erweima.png
+[运行时间：0.012729s] [吞吐率：78.56req/s] [内存消耗：1,351.21kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/images/ico-position.png
+[运行时间：0.010407s] [吞吐率：96.09req/s] [内存消耗：1,351.28kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/static/skin/css/about.css',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:23+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/fonts/pingfanglight.ttf
+[运行时间：0.012664s] [吞吐率：78.96req/s] [内存消耗：1,351.82kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/static/skin/css/about.css',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:30+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.134897s] [吞吐率：7.41req/s] [内存消耗：2,618.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Index/About/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.023926s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018122s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.018352s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.019355s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.017144s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.017447s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000205s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:30+08:00 ] 127.0.0.1 GET www.cms.zc/static/skin/js/login.js
+[运行时间：0.011314s] [吞吐率：88.39req/s] [内存消耗：1,351.12kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'skin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:31+08:00 ] 127.0.0.1 GET www.cms.zc/
+[运行时间：0.150188s] [吞吐率：6.66req/s] [内存消耗：2,617.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/index\view\index\index.html [ array (
+  0 => 'info',
+  1 => 'linkList',
+  2 => 'productList',
+  3 => 'cateList',
+  4 => 'bannerBtn',
+  5 => 'articleList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010646s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_system` [ RunTime:0.017068s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_product` [ RunTime:0.018828s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_product` ORDER BY `sort` ASC [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_cate` [ RunTime:0.026276s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_link` [ RunTime:0.019588s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_link` ORDER BY `sort` ASC [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.018616s ]
+[ sql ] [ SQL ] SELECT `btn_name`,`name`,`lname`,`url` FROM `yx_banner` ORDER BY `sort` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_cate` ORDER BY `sort` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_article` [ RunTime:0.018164s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=2 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=3 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_article` WHERE  (  cate_id=4 ) ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000143s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:41:31+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line2.js?_=1592019690946
+[运行时间：0.010829s] [吞吐率：92.34req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line2.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019690946',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:31+08:00 ] 127.0.0.1 GET www.cms.zc/js/cpgwjs/line1.js?_=1592019690945
+[运行时间：0.013496s] [吞吐率：74.10req/s] [内存消耗：1,352.03kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'cpgwjs',
+    2 => 'line1.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1592019690945',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:41:49+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/banner
+[运行时间：0.112844s] [吞吐率：8.86req/s] [内存消耗：2,966.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; PHPSESSID=otue19737kjqjrtb9n4lk4ttdd; _gid=GA1.2.862834952.1592019551',
+  'referer' => 'http://www.cms.zc/Admin/Message/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->banner[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\banner.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010448s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_banner` [ RunTime:0.022188s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_banner` ORDER BY `sort` ASC [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:51:12+08:00 ] 127.0.0.1 GET www.cms.zc/admin/
+[运行时间：0.014600s] [吞吐率：68.49req/s] [内存消耗：1,655.66kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; _gid=GA1.2.862834952.1592019551',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:51:12+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/index
+[运行时间：0.013116s] [吞吐率：76.24req/s] [内存消耗：1,635.68kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; _gid=GA1.2.862834952.1592019551; PHPSESSID=fc4773ugvpeogv8b0512ou8mel',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:51:12+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Login/getVerify
+[运行时间：0.015786s] [吞吐率：63.35req/s] [内存消耗：1,764.05kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'getVerify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; _gid=GA1.2.862834952.1592019551; PHPSESSID=fc4773ugvpeogv8b0512ou8mel',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->getVerify[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-06-13T11:51:42+08:00 ] 127.0.0.1 POST www.cms.zc/Admin/Login/ajaxLogin
+[运行时间：0.043818s] [吞吐率：22.82req/s] [内存消耗：2,829.35kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => 'ajaxLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; _gid=GA1.2.862834952.1592019551; PHPSESSID=fc4773ugvpeogv8b0512ou8mel',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'origin' => 'http://www.cms.zc',
+  'content-length' => '415',
+  'content-type' => 'multipart/form-data; boundary=---------------------------70311579830228846102231673593',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123123',
+  'password' => '123123',
+  'verify' => 'kgyc',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=hyx;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yx_admin` [ RunTime:0.023193s ]
+[ sql ] [ SQL ] SELECT * FROM `yx_admin` WHERE  (  user='123123' AND password='63ee451939ed580ef3c4b6f0109d1fd0' ) LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2020-06-13T11:51:42+08:00 ] 127.0.0.1 GET www.cms.zc/Admin/Index/index
+[运行时间：0.014292s] [吞吐率：69.97req/s] [内存消耗：2,003.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\cms\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'pgv_pvi=5508945920; _ga=GA1.2.1168950069.1591687943; _gid=GA1.2.862834952.1592019551; PHPSESSID=fc4773ugvpeogv8b0512ou8mel',
+  'referer' => 'http://www.cms.zc/Admin/Login/index',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0',
+  'host' => 'www.cms.zc',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\cms\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\cms\public/../application/admin\view\index\index.html [ array (
+  0 => 'adminInfo',
+  1 => 'controllerName',
+) ]
+[ info ] [ LOG ] INIT File

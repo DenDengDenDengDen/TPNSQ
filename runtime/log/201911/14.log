@@ -1,0 +1,3519 @@
+---------------------------------------------------------------
+[ 2019-11-14T17:22:19+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[ error ] [0]模板文件不存在:base/navbar.html
+---------------------------------------------------------------
+[ 2019-11-14T17:22:22+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[ error ] [0]模板文件不存在:base/navbar.html
+---------------------------------------------------------------
+[ 2019-11-14T17:22:47+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.012217s] [吞吐率：81.85req/s] [内存消耗：303.08kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:base/navbar.html[E:\wamp64\www\beaba\thinkphp\library\think\Template.php:1074]
+---------------------------------------------------------------
+[ 2019-11-14T17:22:57+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.004953s] [吞吐率：201.89req/s] [内存消耗：447.86kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:24:01+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.009760s] [吞吐率：102.46req/s] [内存消耗：349.02kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:[E:\wamp64\www\beaba\thinkphp\library\think\Template.php:1074]
+---------------------------------------------------------------
+[ 2019-11-14T17:24:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.006050s] [吞吐率：165.29req/s] [内存消耗：435.78kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:24:10+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.005118s] [吞吐率：195.38req/s] [内存消耗：435.78kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:24:14+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin
+[运行时间：0.004450s] [吞吐率：224.73req/s] [内存消耗：435.78kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:49+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.005568s] [吞吐率：179.60req/s] [内存消耗：254.23kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/font-awesome.min.css
+[运行时间：0.004179s] [吞吐率：239.29req/s] [内存消耗：216.41kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/bootstrap.min.css
+[运行时间：0.005087s] [吞吐率：196.57req/s] [内存消耗：215.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/beyond.min.css
+[运行时间：0.004313s] [吞吐率：231.84req/s] [内存消耗：215.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/animate.min.css
+[运行时间：0.005990s] [吞吐率：166.94req/s] [内存消耗：215.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/bootstrap.min.js
+[运行时间：0.003514s] [吞吐率：284.57req/s] [内存消耗：215.29kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/beyond.js
+[运行时间：0.003701s] [吞吐率：270.20req/s] [内存消耗：215.28kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/demo.min.css
+[运行时间：0.006329s] [吞吐率：158.00req/s] [内存消耗：215.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/skins.min.js
+[运行时间：0.008534s] [吞吐率：117.18req/s] [内存消耗：215.28kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/jquery-2.0.3.min.js
+[运行时间：0.009540s] [吞吐率：104.82req/s] [内存消耗：215.29kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/bootstrap.min.js
+[运行时间：0.003121s] [吞吐率：320.40req/s] [内存消耗：215.29kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/beyond.js
+[运行时间：0.003377s] [吞吐率：296.10req/s] [内存消耗：215.28kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:25:50+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/img/favicon.png
+[运行时间：0.004074s] [吞吐率：245.45req/s] [内存消耗：215.07kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.004955s] [吞吐率：201.81req/s] [内存消耗：262.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/beyond.min.css
+[运行时间：0.003814s] [吞吐率：262.19req/s] [内存消耗：216.16kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/skins.min.js
+[运行时间：0.003691s] [吞吐率：270.93req/s] [内存消耗：216.14kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/jquery-2.0.3.min.js
+[运行时间：0.003163s] [吞吐率：316.15req/s] [内存消耗：216.15kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/bootstrap.min.js
+[运行时间：0.003422s] [吞吐率：292.25req/s] [内存消耗：216.15kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:11+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/js/beyond.js
+[运行时间：0.003577s] [吞吐率：279.56req/s] [内存消耗：216.14kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:38+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.005418s] [吞吐率：184.57req/s] [内存消耗：262.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:26:38+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/beyond.min.css
+[运行时间：0.003433s] [吞吐率：291.29req/s] [内存消耗：216.16kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:27:18+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.003723s] [吞吐率：268.61req/s] [内存消耗：254.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:27:18+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/beyond.min.css
+[运行时间：0.003184s] [吞吐率：314.09req/s] [内存消耗：216.16kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:27:20+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002931s] [吞吐率：341.17req/s] [内存消耗：213.55kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:30:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.004641s] [吞吐率：215.47req/s] [内存消耗：242.67kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:30:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/assets/css/beyond.min.css
+[运行时间：0.004791s] [吞吐率：208.72req/s] [内存消耗：216.16kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://www.beaba.aiwok/Admin/Login',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:09+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/Login
+[运行时间：0.004468s] [吞吐率：223.80req/s] [内存消耗：254.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:15+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003482s] [吞吐率：287.20req/s] [内存消耗：214.00kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:21+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/
+[运行时间：0.003812s] [吞吐率：262.32req/s] [内存消耗：303.63kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:21+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003915s] [吞吐率：255.42req/s] [内存消耗：214.00kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:21+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/beyond.min.js.map
+[运行时间：0.002982s] [吞吐率：335.36req/s] [内存消耗：213.55kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:25+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/
+[运行时间：0.003258s] [吞吐率：306.94req/s] [内存消耗：303.61kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:25+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003460s] [吞吐率：289.02req/s] [内存消耗：214.00kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:25+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/beyond.min.js.map
+[运行时间：0.003034s] [吞吐率：329.59req/s] [内存消耗：214.00kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:33+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003364s] [吞吐率：297.26req/s] [内存消耗：242.28kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:33+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002862s] [吞吐率：349.41req/s] [内存消耗：214.00kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:31:58+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/
+[运行时间：0.003401s] [吞吐率：294.05req/s] [内存消耗：303.22kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550; _gat=1',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:32:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.005232s] [吞吐率：191.14req/s] [内存消耗：253.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:32:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003752s] [吞吐率：266.53req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:32:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003010s] [吞吐率：332.22req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:32:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002686s] [吞吐率：372.30req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:33:02+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004442s] [吞吐率：225.11req/s] [内存消耗：242.67kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:33:02+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002984s] [吞吐率：335.12req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:33:03+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003323s] [吞吐率：300.93req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:33:03+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002733s] [吞吐率：365.90req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:35:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.005069s] [吞吐率：197.28req/s] [内存消耗：253.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:35:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004155s] [吞吐率：240.66req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:03+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003846s] [吞吐率：260.02req/s] [内存消耗：242.67kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:04+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002898s] [吞吐率：345.07req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004393s] [吞吐率：227.63req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004113s] [吞吐率：243.13req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003162s] [吞吐率：316.24req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002878s] [吞吐率：347.47req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003137s] [吞吐率：318.76req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:06+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002770s] [吞吐率：361.02req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:07+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002773s] [吞吐率：360.61req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:07+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003323s] [吞吐率：300.93req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:07+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003424s] [吞吐率：292.06req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:39+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003709s] [吞吐率：269.63req/s] [内存消耗：251.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:39+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003460s] [吞吐率：289.02req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:40+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002967s] [吞吐率：337.03req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:40+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003292s] [吞吐率：303.78req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003013s] [吞吐率：331.88req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002966s] [吞吐率：337.16req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003174s] [吞吐率：315.08req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002840s] [吞吐率：352.11req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003096s] [吞吐率：323.01req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002808s] [吞吐率：356.14req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003731s] [吞吐率：268.02req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:41+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002612s] [吞吐率：382.83req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:52+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003122s] [吞吐率：320.30req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:53+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003932s] [吞吐率：254.32req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:53+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002681s] [吞吐率：372.99req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002973s] [吞吐率：336.38req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.005445s] [吞吐率：183.65req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002806s] [吞吐率：356.36req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002949s] [吞吐率：339.10req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:54+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002875s] [吞吐率：347.82req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003675s] [吞吐率：272.11req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003153s] [吞吐率：317.17req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.005096s] [吞吐率：196.23req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002680s] [吞吐率：373.16req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T17:36:55+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003414s] [吞吐率：292.90req/s] [内存消耗：242.27kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:18:43+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004590s] [吞吐率：217.86req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:10+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004014s] [吞吐率：249.13req/s] [内存消耗：251.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:10+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004206s] [吞吐率：237.76req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:12+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003104s] [吞吐率：322.17req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:12+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002855s] [吞吐率：350.28req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:13+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003714s] [吞吐率：269.25req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:13+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002817s] [吞吐率：354.97req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:13+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002900s] [吞吐率：344.84req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:14+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003715s] [吞吐率：269.18req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:14+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002850s] [吞吐率：350.87req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:14+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002634s] [吞吐率：379.64req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:25+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004205s] [吞吐率：237.81req/s] [内存消耗：251.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:25+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003140s] [吞吐率：318.47req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:26+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002881s] [吞吐率：347.10req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:26+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002874s] [吞吐率：347.93req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:46+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.005019s] [吞吐率：199.24req/s] [内存消耗：251.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:19:46+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003561s] [吞吐率：280.82req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:20:09+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003521s] [吞吐率：283.99req/s] [内存消耗：251.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:20:10+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002878s] [吞吐率：347.44req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:21:07+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004899s] [吞吐率：204.12req/s] [内存消耗：251.81kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:21:07+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004569s] [吞吐率：218.88req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:22:46+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004414s] [吞吐率：226.55req/s] [内存消耗：252.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:22:47+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003696s] [吞吐率：270.57req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:22:59+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003860s] [吞吐率：259.07req/s] [内存消耗：252.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:22:59+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.003300s] [吞吐率：303.03req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:23:49+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.004861s] [吞吐率：205.72req/s] [内存消耗：251.01kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:23:49+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.004107s] [吞吐率：243.49req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:52+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/
+[运行时间：0.006635s] [吞吐率：150.72req/s] [内存消耗：428.35kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:53+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/
+[运行时间：0.006293s] [吞吐率：158.91req/s] [内存消耗：300.21kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp64\www\beaba\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:56+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003375s] [吞吐率：296.29req/s] [内存消耗：242.87kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:56+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002770s] [吞吐率：361.02req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:57+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.002749s] [吞吐率：363.77req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:57+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002600s] [吞吐率：384.59req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:58+08:00 ] 127.0.0.1 GET www.beaba.aiwok/Admin/login
+[运行时间：0.003560s] [吞吐率：280.89req/s] [内存消耗：242.46kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\wamp64\www\beaba\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\wamp64\www\beaba\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-14T18:24:58+08:00 ] 127.0.0.1 GET www.beaba.aiwok/static/beyondAdmin/js/skins.min.js.map
+[运行时间：0.002998s] [吞吐率：333.54req/s] [内存消耗：213.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp64\www\beaba\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'beyondAdmin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.beaba.aiwok',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=734700544; pgv_si=s9512719360; _ga=GA1.2.1487664111.1573723550; _gid=GA1.2.2122726556.1573723550',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
